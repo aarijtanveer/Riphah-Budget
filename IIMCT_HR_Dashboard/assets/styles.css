@@ -1,0 +1,44 @@
+
+/* iPadOS-inspired look */
+:root {
+  --card-bg: #ffffff;
+  --muted-text: #667085;
+  --accent: #007aff;
+  --shadow: 0 10px 30px rgba(2, 6, 23, 0.06);
+  --radius: 18px;
+}
+
+/* Page padding */
+.main > div {
+  padding-top: 1rem;
+}
+
+/* KPI cards */
+.block-container .kpi-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 18px 20px;
+  border: 1px solid #eef2f7;
+}
+.kpi-label { color: var(--muted-text); font-size: 0.9rem; }
+.kpi-value { font-weight: 700; font-size: 1.6rem; }
+.kpi-delta { font-size: 0.9rem; color: #16a34a; }
+
+/* Section headers */
+h2, h3 { letter-spacing: 0.2px; }
+
+/* Sidebar polish */
+section[data-testid="stSidebar"] {
+  background: linear-gradient(180deg,#f8faff,#f5f7fb);
+  border-right: 1px solid #eef2f7;
+}
+
+/* Buttons */
+.stButton > button {
+  border-radius: 12px !important;
+  padding: 0.6rem 1rem !important;
+}
+
+/* Tables */
+.dataframe tbody tr:hover { background: #f8fafc; }
