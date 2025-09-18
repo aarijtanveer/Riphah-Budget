@@ -1,0 +1,4 @@
+/* iPadOS look */
+:root { --card-bg:#fff; --muted:#667085; --accent:#007aff; --shadow:0 10px 30px rgba(2,6,23,0.06); --radius:18px; }
+.block-container .kpi-card{background:var(--card-bg);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px 20px;border:1px solid #eef2f7}
+.kpi-label{color:var(--muted);font-size:.9rem}.kpi-value{font-weight:700;font-size:1.6rem}
